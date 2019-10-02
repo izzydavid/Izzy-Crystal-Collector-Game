@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../unit-4-game/assets/css/style.css">
+    <link rel="styleshee dt" href="../unit-4-game/assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--Start of the Background Video from Final Fantasy XI-->
+            <video playsinline muted autoplay loop id="video"> 
+                <source src="../unit-4-game/assets/Videos/CrystalGamefinal.m4v">
+            </video>
+            
+<!--End of the Background Video from Final Fantasy XI-->
+
+<!--Start of the Title of Izzy'y Crystal Collector Game-->
+<div class="row">
+        <h1 style="font-size: 70px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Welcome to Izzy's Crystal Collector Game!</h1>
+</div>  
+<!--End of the Title of Izzy'y Crystal Collector Game-->
+
+
+<!--Start of the Carousel of Crystals-->
+        <div class="row carousel">
+                <a class="carousel-item" href="JavaScript:Void(0);"><img
+                src="../unit-4-game/assets/images/bluecrystal.png"></a>
+                <a class="carousel-item " href="JavaScript:Void(0);"><img
+                 src="../unit-4-game/assets/images/redcrystal.png"></a>
+                <a class="carousel-item" href="JavaScript:Void(0);"><img
+                src="../unit-4-game/assets/images/greencrystal.png"></a>
+                <a class="carousel-item" href="JavaScript:Void(0);"><img
+                src="../unit-4-game/assets/images/whitecrystal.png"></a>        
+        </div>
+<!--End of the Carousel of Crystals-->
+
+<!--Start of the Guess that Number Row-->
+    <div class="row">
+        <h3 style="font-size: 50px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Guess A Number!</h3>
+    </div>
+<!--End of the Guess that Number Row-->
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="../unit-4-game/assets/javascript/game.js"> </script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
 </html>
