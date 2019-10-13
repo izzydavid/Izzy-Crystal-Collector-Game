@@ -41,12 +41,12 @@ img {
     width: 50%;
     position: relative;
     bottom: -300px; 
-  }
-  
-  #playButton:hover{ 
+}
+
+#playButton:hover{ 
     border-style: dotted;  
     color: ivory;
-  }
+}
 
 .carousel-item { 
     background: transparent !important; 
@@ -65,7 +65,6 @@ color: ivory;
     border-style: dotted;  
     background-color: rgba(0, 0, 0, 0.50);
 }
-
 
 .card-panel { 
     border-radius: 20px !important; 
