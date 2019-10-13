@@ -14,40 +14,83 @@
 
 <body>
 <!--Start of the Background Video from Final Fantasy XI-->
-            <video playsinline muted autoplay loop id="video"> 
+        <video playsinline muted autoplay loop id="video"> 
                 <source src="../unit-4-game/assets/Videos/CrystalGamefinal.m4v">
-            </video>
-            
+        </video>
 <!--End of the Background Video from Final Fantasy XI-->
+
+<!-- Start of the User Play Button  -->
+    <div class="center-align">
+        <a id="playButton">Play</a>
+    </div>
+<!-- End of the User Play Button  -->
+
+<!--Start of the Instructions-->
+<div class="row instructions overlay col s12 m4 l3">
+        <h2 class="text" style="font-size: 100px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Instructions</h2>
+        <h2 class="center-align text" style="font-size: 50px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;"> 
+       The game will begin with a random number. You win by matching your total score to the random number; you lose the game if your score exceeds the random number. There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score. Each crystal's value remains hidden until you click it. Each crystal's value changes each time the game starts.
+        </h2>
+</div>  
+<!--End of the Instructions-->
+
+<!-- Start of Main Container from Materialize  -->
+<div class="container game__crystal-collector"> 
 
 <!--Start of the Title of Izzy'y Crystal Collector Game-->
 <div class="row">
-        <h1 style="font-size: 70px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Welcome to Izzy's Crystal Collector Game!</h1>
+    <h2 style="font-size: 70px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Welcome to Izzy's Crystal Collector Game!</h2>
 </div>  
 <!--End of the Title of Izzy'y Crystal Collector Game-->
 
-
-<!--Start of the Carousel of Crystals-->
-        <div class="row carousel">
-                <a class="carousel-item" href="JavaScript:Void(0);"><img
-                src="../unit-4-game/assets/images/bluecrystal.png"></a>
-                <a class="carousel-item " href="JavaScript:Void(0);"><img
-                 src="../unit-4-game/assets/images/redcrystal.png"></a>
-                <a class="carousel-item" href="JavaScript:Void(0);"><img
-                src="../unit-4-game/assets/images/greencrystal.png"></a>
-                <a class="carousel-item" href="JavaScript:Void(0);"><img
-                src="../unit-4-game/assets/images/whitecrystal.png"></a>        
-        </div>
-<!--End of the Carousel of Crystals-->
-
 <!--Start of the Guess that Number Row-->
-    <div class="row">
+<div class="row">
         <h3 style="font-size: 50px; color: ivory; font-family: 'Shadows Into Light', cursive; text-align: center;">Guess A Number!</h3>
-    </div>
+</div>
 <!--End of the Guess that Number Row-->
 
-</body>
+<!--Start of the Total Score-->
+<h2 class="center-align card col s12 m4 l3"> 
+    <a class="total-score">
+        <a>Your score:</a>
+        <br>
+    <a id="totalscore">0</a>
+</h3>
+<!--End of the Total Score-->
 
+<!--Start of the Wins and Loses-->
+<h3 class="center-align card col s12 m4 l3"> 
+        <a class="wins-loses">
+            <a>Wins:</a>
+            <a id="wins">0</a>
+            <a>Losses:</a>
+            <a id="losses">0</a>
+        </a>
+    </h3>
+<!--End of the Wins and Loses-->
+
+<!--Start of the Random Number-->
+<h3 class="center-align card col s12 m4 l3"> 
+        <a>Random Number:</a>  <a class="random-number" id="randNum">  </a>
+</h3>
+<!--End of the Random Number-->
+
+<!--Start of the Carousel of Crystals-->
+<div class="row carousel col s12 m4 l3"> 
+        <a id="crysArray">
+                <button id="bluecrystal" class="carousel-item"><img src = "../unit-4-game/assets/images/bluecrystal.png" alt=""></button>
+                <button id="greencrystal" class="carousel-item"><img src="../unit-4-game/assets/images/greencrystal.png" alt=""></button>
+                <button id="redcrystal" class="carousel-item"><img src= "../unit-4-game/assets/images/redcrystal.png" alt=""></button>
+                <button id="whitecrystal" class="carousel-item"><img src="../unit-4-game/assets/images/whitecrystal.png" alt=""></button>
+                <button id="pinkcrystal" class="carousel-item"><img src="../unit-4-game/assets/images/pinkcrystal.png" alt=""></button>
+        </a>
+    </div>
+<!--End of the Carousel of Crystals-->
+
+<!-- End of Main Container from Materialize  -->
+</div> 
+
+</body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="../unit-4-game/assets/javascript/game.js"> </script>
