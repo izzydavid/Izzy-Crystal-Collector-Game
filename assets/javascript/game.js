@@ -1,7 +1,8 @@
 $(document).ready(() => {
 
-    $('.container, .instructions, #playButton').hide(10);
-    $("#playButton").delay(42000).fadeIn(2000); 
+    $('.game__crystal-collector, .instructions, #playButton').hide(10);
+    $("#intro").delay(42000).fadeIn(42000); 
+    $("#playButton").delay(42000).fadeIn(500); 
 
     M.AutoInit();
 
@@ -12,11 +13,8 @@ $("#playButton").on("click", function () {
 
 $(".instructions").on("click", function () {
     $(".instructions").remove();
-    $(".container").delay(200).fadeIn(2000); 
+    $(".game__crystal-collector").delay(200).fadeIn(2000); 
     $('.carousel').delay(200).fadeIn(2000); 
-    $("#video").animate({
-    opacity: 0.8
-    });
 });
     
     //program generates a random number between 19 and 120

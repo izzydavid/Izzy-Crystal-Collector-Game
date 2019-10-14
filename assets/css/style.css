@@ -29,10 +29,14 @@ html {
 }
 
 img { 
-    height: 250px; 
-    width: 200px; 
+    height: 175px; 
+    width: 175px; 
 }
 
+#intro { 
+    position: relative;
+    bottom: -200px;  
+}
 
 #playButton:hover{ 
     border-style: dotted;  
