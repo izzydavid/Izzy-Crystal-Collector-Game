@@ -34,8 +34,8 @@ img {
 }
 
 audio { 
-    background: transparent !important; 
-    
+    position: relative;
+    left: 425px;
 }
 
 #intro { 
@@ -65,3 +65,28 @@ audio {
 #randNum { 
     color: dodgerblue;
 }
+
+@media screen and (min-width: 480px) {
+    audio {
+        position: relative;
+        left: 75px;    
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    audio {
+        position: relative;
+        left: 75px;        
+    }
+  }
+
+  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    audio {
+        position: relative;
+        left: 420px;        
+    }
+    img { 
+        height: 250px; 
+        width: 250px; 
+    }
+  }
