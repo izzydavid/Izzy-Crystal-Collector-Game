@@ -33,6 +33,11 @@ img {
     width: 175px; 
 }
 
+audio { 
+    background: transparent !important; 
+    
+}
+
 #intro { 
     position: relative;
     bottom: -200px;  
