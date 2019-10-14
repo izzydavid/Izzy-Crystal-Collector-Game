@@ -2,9 +2,9 @@
 
                                                   # Instructions to Game:
 
-                              The game will begin with a random number. You win by matching your total score to the random number; you lose the game if your score exceeds the random number. There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score. Each crystal's value remains hidden until you click it. Each crystal's value changes each time the game starts.
+          The game will begin with a random number. You win by matching your total score to the random number; you lose the game if your score exceeds the random number. There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score. Each crystal's value remains hidden until you click it. Each crystal's value changes each time the game starts.
 
-![ALT TXT](https://github.com/izzydavid/Izzy-Crystal-Collector-Game/blob/master/assets/images/Izzy-Crystal-Collector-Game.gif?raw=true)
+  ![ALT TXT](https://github.com/izzydavid/Izzy-Crystal-Collector-Game/blob/master/assets/images/Izzy-Crystal-Collector-Game.gif?raw=true)
 
 ![ALT TXT](https://github.com/izzydavid/Izzy-Crystal-Collector-Game/blob/master/assets/images/izzy-Crystal-Collector-Game-Play.gif?raw=true)
 
