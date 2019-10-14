@@ -1,7 +1,9 @@
 $(document).ready(() => {
 
-$('.container, .instructions').hide(100);
-M.AutoInit();
+    $('.container, .instructions, #playButton').hide(10);
+    $("#playButton").delay(42000).fadeIn(2000); 
+
+    M.AutoInit();
 
 $("#playButton").on("click", function () {
     $("#playButton").remove();

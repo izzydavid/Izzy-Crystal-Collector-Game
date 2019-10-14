@@ -33,15 +33,6 @@ img {
     width: 200px; 
 }
 
-#playButton{ 
-    font-family: 'Dancing Script', cursive;
-    font-size: 200px; 
-    flex-direction: row; 
-    color: ivory; 
-    width: 50%;
-    position: relative;
-    bottom: -300px; 
-}
 
 #playButton:hover{ 
     border-style: dotted;  
